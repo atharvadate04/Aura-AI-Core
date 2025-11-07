@@ -1,3 +1,4 @@
+
 import os
 from dotenv import load_dotenv
 from aura_core.ai_core import AuraAICore
@@ -31,7 +32,7 @@ def main():
 
     # Continue the interactive Socratic dialogue
     while True:
-        user_response = input("   ➡️ Your Response: ")
+        user_response = input("\n   ➡️ Your Response (Type 'exit' to quit the mode): ")
         if user_response.lower() == 'exit':
             print("👋 Ending Socratic dialogue.")
             break
